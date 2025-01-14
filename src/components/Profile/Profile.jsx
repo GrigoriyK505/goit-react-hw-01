@@ -1,4 +1,4 @@
-const Profile = ({ name, tag, location, image, status: { followers, views, likes } }) => {
+const Profile = ({ name, tag, location, image, stats}) => {
     return (
         <div>
             <div>
@@ -14,15 +14,15 @@ const Profile = ({ name, tag, location, image, status: { followers, views, likes
             <ul>
                 <li>
                     <span>Followers</span>
-                    <span>{followers}</span>
+                    <span>{stats.followers}</span>
                 </li>
                 <li>
                     <span>Views</span>
-                    <span>{views}</span>
+                    <span>{stats.views}</span>
                 </li>
                 <li>
                     <span>Likes</span>
-                    <span>{likes}</span>
+                    <span>{stats.likes}</span>
                 </li>
             </ul>
         </div>
