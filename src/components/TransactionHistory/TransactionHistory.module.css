@@ -1,0 +1,26 @@
+.table {
+    width: 672px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-spacing: 0;
+    margin-bottom: 24px;
+}
+
+.head {
+    line-height: 1,8;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 41, 41);
+}
+
+.item {
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.row:nth-child(2n) {
+    background-color: rgb(197, 197, 197);
+}
