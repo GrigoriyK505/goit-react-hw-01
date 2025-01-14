@@ -1,0 +1,84 @@
+p {
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 680px;
+    box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: gray;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.useInfo {
+    padding: 32px;
+}
+
+.ava {
+    width: 264px;
+    height: 264px;
+    border-radius: 50%;
+    background-color: rgb(46, 45, 45);
+    margin-bottom: 32px;
+}
+
+.name {
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+.tag {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.loc {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: rgb(185, 185, 185);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.setActive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-top: 4px solid #808080;
+    border-left: 3px solid #808080;
+    border-right: 3px solid #808080;
+}
+
+
+
+
+.tit {
+    font-size: 32px;
+    text-transform: capitalize;
+    padding-top: 24px;
+}
+
+.stats {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
